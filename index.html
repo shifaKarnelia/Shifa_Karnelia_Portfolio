@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Shifa Karnelia | Portfolio</title>
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dark-mode">
+
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+
+<div class="container">
+
+<a class="navbar-brand">Shifa Karnelia</a>
+
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="menu">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item">
+<a class="nav-link" href="#home">Home</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#about">About</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#skills">Skills</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#projects">Projects</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#records">Records & Experience</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#contact">Contact</a>
+</li>
+
+</ul>
+<button id="modeToggle" class="btn btn-outline-light ms-3">
+☀️
+</button>
+</div>
+
+</div>
+
+</nav>
+
+<!-- HERO SECTION -->
+
+<section id="home" class="hero container">
+
+<div class="row align-items-center">
+
+<!-- LEFT TEXT -->
+
+<div class="col-md-6 hero-copy">
+
+<h1 class="hero-title">Hello I'm Shifa</h1>
+
+<h3 id="typing" class="typing-text"></h3>
+
+<p class="hero-description">
+<h3>Building software with teamwork, curiosity, and care.</h3>
+</p>
+<a class="nav-link btn btn-primary" href="#contact">Contact</a>
+<a href="record/resume.pdf" download class="btn btn-primary hero-button">
+View My Resume
+</a>
+
+</div>
+
+<!-- RIGHT IMAGE -->
+
+<div class="col-md-6 text-center hero-image-wrap">
+
+<img src="profile.png" class="profile" alt="Shifa Karnelia profile photo">
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about" class="container mt-5">
+
+<div class="row align-items-center about-layout g-4">
+
+<div class="col-lg-6">
+<div class="about-copy">
+<p class="section-tag">About Me</p>
+
+<p>
+I am a software developer fueled by a deep passion for bringing ideas to life through Java, Python, C#, and ASP.NET Core. Nothing excites me more than transforming a simple concept into a clean, meaningful application that solves real problems and creates an experience users can truly feel.
+
+</p>
+
+<p>
+I thrive in collaborative environments where creativity and learning never stop. I love exploring new technologies, asking the right questions, and crafting reliable, scalable solutions that continue to grow long after the first iteration.
+</p>
+<a href="record/resume.pdf" download class="btn btn-primary hero-button">
+Download Resume
+</a>
+<a href="record/Shifa_Cover_Letter.pdf" download class="btn btn-primary hero-button">
+Download My Cover Letter
+</a>
+</div>
+</div>
+
+<div class="col-lg-6">
+<div class="soft-skills-grid">
+<div class="soft-skill-card">
+<h3>Team Management</h3>
+<p>Supporting collaboration, communication, and shared progress across a project.</p>
+</div>
+
+<div class="soft-skill-card">
+<h3>Problem Solving</h3>
+<p>Breaking complex tasks into clear steps and finding practical solutions.</p>
+</div>
+
+<div class="soft-skill-card">
+<h3>Adaptability</h3>
+<p>Learning quickly, adjusting to change, and staying productive in new situations.</p>
+</div>
+
+<div class="soft-skill-card">
+<h3>Time Management</h3>
+<p>Organizing priorities well and delivering work on time with consistency.</p>
+</div>
+</div>
+</div>
+
+</div>
+
+</section>
+
+<!-- SKILLS -->
+
+<section id="skills" class="container mt-5">
+
+<div class="skills-shell">
+<p class="section-tag">Skills</p>
+
+<div class="skills-filter" role="tablist" aria-label="Skill categories">
+<button class="skill-filter-btn active" type="button" data-category="source-code">Source Code</button>
+<button class="skill-filter-btn" type="button" data-category="frontend">Frontend</button>
+<button class="skill-filter-btn" type="button" data-category="backend">Backend</button>
+</div>
+
+<div class="skills-cards-grid">
+<article class="skill-showcase-card" data-category="source-code">
+<span class="skill-chip">Source Control</span>
+<h3>GitHub</h3>
+<p>Version control, repository management, collaboration, and project documentation.</p>
+</article>
+
+<article class="skill-showcase-card" data-category="source-code">
+<span class="skill-chip">Project Tracking</span>
+<h3>Trello</h3>
+<p>Planning tasks, tracking progress, and keeping team work organized clearly.</p>
+</article>
+
+<article class="skill-showcase-card" data-category="source-code">
+<span class="skill-chip">IDE</span>
+<h3>VS Code and JetBrains IDEs</h3>
+<p>Daily development environments for coding, debugging, extensions, and efficient workflow support.</p>
+</article>
+
+<article class="skill-showcase-card" data-category="frontend" hidden>
+<span class="skill-chip">Frontend</span>
+<h3>HTML5</h3>
+<p>Building clean page structure and accessible content for modern websites.</p>
+</article>
+
+<article class="skill-showcase-card" data-category="frontend" hidden>
+<span class="skill-chip">Styling</span>
+<h3>CSS3</h3>
+<p>Responsive layouts, animations, custom components, and polished visual design.</p>
+</article>
+
+<article class="skill-showcase-card" data-category="frontend" hidden>
+<span class="skill-chip">UI Logic</span>
+<h3>JavaScript</h3>
+<p>Interactive interfaces, DOM behavior, and dynamic client-side functionality.</p>
+</article>
+
+<article class="skill-showcase-card" data-category="frontend" hidden>
+<span class="skill-chip">Framework</span>
+<h3>React</h3>
+<p>Creating component-based interfaces with reusable UI patterns and dynamic state handling.</p>
+</article>
+
+<article class="skill-showcase-card" data-category="frontend" hidden>
+<span class="skill-chip">Language</span>
+<h3>TypeScript</h3>
+<p>Building safer frontend applications with typed components, clearer models, and maintainable code.</p>
+</article>
+
+<article class="skill-showcase-card" data-category="frontend" hidden>
+<span class="skill-chip">Mobile</span>
+<h3>Swift</h3>
+<p>Developing polished Apple platform experiences with modern syntax and strong performance.</p>
+</article>
+
+<article class="skill-showcase-card" data-category="backend" hidden>
+<span class="skill-chip">Backend</span>
+<h3>Node.js</h3>
+<p>Building fast server-side applications, APIs, and real-time backend services with JavaScript.</p>
+</article>
+
+<article class="skill-showcase-card" data-category="backend" hidden>
+<span class="skill-chip">Language</span>
+<h3>C#</h3>
+<p>Object-oriented development for backend systems and application logic.</p>
+</article>
+
+<article class="skill-showcase-card" data-category="backend" hidden>
+<span class="skill-chip">Language</span>
+<h3>PHP</h3>
+<p>Developing dynamic web applications, server logic, and database-driven features.</p>
+</article>
+
+<article class="skill-showcase-card" data-category="backend" hidden>
+<span class="skill-chip">Framework</span>
+<h3>Express</h3>
+<p>Creating REST APIs and lightweight backend services with a flexible Node.js framework.</p>
+</article>
+
+<article class="skill-showcase-card" data-category="backend" hidden>
+<span class="skill-chip">Language</span>
+<h3>Python</h3>
+<p>Scripting, automation, and problem solving across different software tasks.</p>
+</article>
+
+
+<article class="skill-showcase-card" data-category="backend" hidden>
+<span class="skill-chip">Framework</span>
+<h3>Spring Boot</h3>
+<p>Building production-ready Java backend applications with structured architecture and rapid setup.</p>
+</article>
+</div>
+</div>
+
+</section>
+
+<!-- PROJECTS -->
+
+<section id="projects" class="container mt-5">
+
+<div class="projects-shell">
+<p class="section-tag">Projects</p>
+<h2>Selected work and hands-on builds</h2>
+
+<div class="projects-grid">
+<article class="project-card">
+<div class="project-image project-image-inventory">
+<span>Contractor Connect</span>
+</div>
+<div class="project-content">
+<p>
+Contractor Connect is a user-friendly digital marketplace that connects homeowners with trusted local service professionals. Built with <u>PHP and CodeIgniter</u>, it brings together reviews, contractor profiles, and job opportunities in one seamless platform. The design prioritizes simplicity and accessibility, making it easy to find, compare, and hire services. It enhances the overall experience for both homeowners and contractors.
+</p>
+<div class="project-links">
+<a href="https://github.com/AdelAlhajHussein/contractor_connect.git" class="btn btn-primary project-link"><span class="project-link-icon" aria-hidden="true">GitHub</span> GitHub</a>
+<a href="https://contractorconnect.cc/" class="btn btn-primary project-link project-link-secondary">Live Demo</a>
+</div>
+</div>
+</article>
+
+<article class="project-card">
+<div class="project-image project-image-game">
+<span>Weather App</span>
+</div>
+<div class="project-content">
+<p>
+Weather App is a responsive web application built with React.js that allows users to search and view real-time weather data by city. It integrates the OpenWeatherMap API to display temperature, weather conditions, and icons dynamically. The app features a simple, user-friendly interface and is deployed on Vercel for fast and reliable access.
+
+<u><b>Technologies Used:</b></u> React.js, JavaScript, CSS, OpenWeatherMap API, Vercel
+</p>
+<div class="project-links">
+<a href="https://github.com/shifaKarnelia/101487402_comp3123_labtest2.git" class="btn btn-primary project-link"><span class="project-link-icon" aria-hidden="true">GitHub</span> GitHub</a>
+<a href="https://101487402-comp3123-labtest2.vercel.app/" class="btn btn-primary project-link project-link-secondary">Live Demo</a>
+</div>
+</div>
+</article>
+
+
+<article class="project-card">
+<div class="project-image project-image-game">
+<span>Grocery List App</span>
+</div>
+<div class="project-content">
+<p>
+Designed and built a personal grocery tracking app that improves list management and shopping organization while strengthening practical development skills.
+
+<u><b>Technologies Used:</b></u> HTML,CSS,JavaScript
+</p>
+<div class="project-links">
+<a href="https://github.com/shifaKarnelia/Grocery_List_App.git" class="btn btn-primary project-link"><span class="project-link-icon" aria-hidden="true">GitHub</span> GitHub</a>
+<a href="https://shifakarnelia.github.io/Grocery_List_App/" class="btn btn-primary project-link project-link-secondary">Live Demo</a>
+</div>
+</div>
+</article>
+</div>
+</div>
+
+</section>
+
+<!-- RECORDS -->
+
+<section id="records" class="container mt-5">
+
+<div class="records-shell">
+<p class="section-tag">Records</p>
+<h2>Awards and academic documents</h2>
+
+<div class="records-filter" role="tablist" aria-label="Record categories">
+<button class="record-filter-btn active" type="button" data-category="award">Award</button>
+<button class="record-filter-btn" type="button" data-category="transcript">Transcript</button>
+<button class="record-filter-btn" type="button" data-category="experience">Work Experience</button>
+</div>
+
+<div class="records-grid">
+<article class="project-card record-card" data-category="award">
+<div class="project-image project-image-award">
+<span>Dean's List Award</span>
+</div>
+<div class="project-content">
+<h3>Dean's Honour List for the Winter 2025 term.
+</h3>
+
+<div class="project-links">
+<a href="record/Dean_letter_1.pdf" target="_blank" rel="noreferrer" class="btn btn-primary project-link">View Record</a>
+<a href="record/Dean_letter_1.pdf" download class="btn btn-primary project-link project-link-secondary">Download</a>
+</div>
+</div>
+</article>
+
+<article class="project-card record-card" data-category="award">
+<div class="project-image project-image-certificate">
+<span>Dean's List Award</span>
+</div>
+<div class="project-content">
+<h3> Dean's Honour List for the Fall 2023 term.
+</h3>
+<div class="project-links">
+<a href="record/Dean_letter_2.pdf" target="_blank" rel="noreferrer" class="btn btn-primary project-link">View Record</a>
+<a href="record/Dean_letter_2.pdf" download class="btn btn-primary project-link project-link-secondary">Download</a>
+</div>
+</div>
+</article>
+
+<article class="project-card record-card" data-category="transcript" hidden>
+<div class="project-image project-image-transcript">
+<span>Program Transcript</span>
+</div>
+<div class="project-content">
+<h3>GEORGE BROWN COLLEGE
+Unofficial Academic Transcript
+</h3>
+
+<div class="project-links">
+<a href="record/Transcript.pdf" target="_blank" rel="noreferrer" class="btn btn-primary project-link">Open Transcript</a>
+<a href="record/Transcript.pdf" download class="btn btn-primary project-link project-link-secondary">Download</a>
+</div>
+</div>
+</article>
+
+
+
+
+
+<article class="project-card record-card" data-category="experience" hidden>
+<div class="project-image project-image-experience">
+<span>Editor (Volunteer)</span>
+</div>
+<div class="project-content">
+<h3>Veer Narmad University, Gujarat, India | Sept 2021 - Oct 2022</h3>
+<p>
+Contributed to student newsletters by writing and editing articles on various topics. Reviewed submissions to ensure clarity and quality before publication. Also designed layouts and cover pages using tools like Adobe Photoshop and Publisher to improve readability and presentation.
+</p>
+</div>
+</article>
+</div>
+</div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section id="contact" class="container mt-5 mb-5">
+
+<div class="contact-shell">
+<p class="section-tag">Contact</p>
+<h2>Get in Touch!</h2>
+
+<div class="contact-layout">
+<div class="contact-info-panel">
+<p class="contact-intro">
+I am always open to discussing projects, job opportunities, and new ideas. Feel free to reach out through any of the links below.
+</p>
+
+<a class="contact-info-item" href="mailto:shifakarnelia@email.com">
+<span class="contact-icon contact-icon-email" aria-hidden="true"></span>
+<span>
+<strong>Email</strong>
+<small>shifakarnelia@email.com</small>
+</span>
+</a>
+
+<a class="contact-info-item" href="https://github.com/shifaKarnelia" target="_blank" rel="noreferrer">
+<span class="contact-icon contact-icon-github" aria-hidden="true"></span>
+<span>
+<strong>GitHub</strong>
+<small>github.com/shifaKarnelia</small>
+</span>
+</a>
+
+<a class="contact-info-item" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+<span class="contact-icon contact-icon-linkedin" aria-hidden="true"></span>
+<span>
+<strong>LinkedIn</strong>
+<small>Connect with me professionally</small>
+</span>
+</a>
+</div>
+
+<div class="contact-form-panel">
+<h3>Contact Me</h3>
+<p>Fill out the form below and your email app will open with your message ready to send.</p>
+
+<form id="contactForm" class="contact-form">
+<label>
+<span>Your Name</span>
+<input type="text" name="name" placeholder="Enter your name" required>
+</label>
+
+<label>
+<span>Your Email</span>
+<input type="email" name="email" placeholder="Enter your email" required>
+</label>
+
+<label>
+<span>Subject</span>
+<input type="text" name="subject" placeholder="What would you like to discuss?" required>
+</label>
+
+<label>
+<span>Message</span>
+<textarea name="message" rows="5" placeholder="Write your message here..." required></textarea>
+</label>
+
+<button type="submit" class="btn btn-primary contact-submit">Send Message</button>
+</form>
+</div>
+</div>
+</div>
+
+</section>
+
+<footer class="site-footer">
+<div class="footer-socials" aria-label="Social links">
+<a class="footer-social-link footer-social-github" href="https://github.com/shifaKarnelia" target="_blank" rel="noreferrer" aria-label="GitHub">
+<span aria-hidden="true"></span>
+</a>
+
+<a class="footer-social-link footer-social-email" href="mailto:shifakarnelia@email.com" aria-label="Email">
+<span aria-hidden="true"></span>
+</a>
+
+<a class="footer-social-link footer-social-linkedin" href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+<span aria-hidden="true"></span>
+</a>
+</div>
+
+<p class="footer-copy">Copyright 2026 Shifa Karnelia</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
